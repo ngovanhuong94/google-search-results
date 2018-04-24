@@ -1,0 +1,194 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: arial,sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navbar {
+	padding: 10px 15px;
+	height: auto;
+	background-color: #fafafa;
+}
+
+.navbar-right {
+	float: right;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.navbar input {
+	width: 600px;
+	height: 35px;
+	border: 1.4px solid #f1f1f1;
+	font-size: 16px;
+	padding-left: 10px;
+	box-shadow: 0px 1px 2px 1px #f2f2f2;
+	background: url('../static/mag.png');
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-color: #fff;
+	background-position: right 10px top 9px; 
+}
+
+.navbar img {
+	position: relative;
+	top: 20px;
+}
+
+.tools {
+	display: block;
+	width: 600px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+.tools a{
+	color: #777;
+	font-size: 13px;
+	line-height: 15px;
+	padding-right: 14px;
+}
+
+.tools a:hover {
+	color: #1a0dab;
+}
+
+.tools-active a{
+	color: blue;
+	font-weight: 580;
+	padding: 10px;
+	border-bottom: 2px solid blue;
+}
+
+.tools-active a:hover {
+	text-decoration: none;
+	cursor: none;
+}
+
+
+.main {
+	width: 600px;
+	margin-left: 170px;
+	text-align: left;
+}
+
+.results {
+	font-size: small;
+	color: #808080;
+	line-height: 43px;
+}
+
+.content {
+	margin-bottom: 15px;
+}
+
+.content a p {
+	color: #1a0dab;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.content .link {
+	color: #006621;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 16px;
+}
+
+.content .link i {
+	color: #006621;
+}
+
+.content .description {
+	color: #545454;
+	font-size: small;
+	line-height: 1.4;
+	word-wrap: break-word;
+}
+
+.content .date {
+	color: #808080;
+}
+
+
+
+.left-related, .right-related {
+	display: inline-block;
+	text-align: left;
+}
+.right-related {
+	margin-left: 40px;
+}
+
+.show-related {
+	font-size: 18px;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.left-related a, .right-related a{
+   color: #1a0dab;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 25px;
+}
+
+.pagination {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.pagination li {
+	display: inline;
+	margin-left: 5px;
+}
+
+.pagination li a {
+	font-size: 13px;
+	color: #4285f4;
+
+}
+
+#page-active a{
+	color: black;
+}
+
+.footer {
+	background-color: #f2f2f2;
+	margin-top: 20px;
+	padding-left: 150px;
+}
+
+.first-footer {
+	border: 1px solid #e4e4e4;
+}
+
+.first-footer p, .second-footer p{
+	display: inline-block;
+	padding: 10px 5px;
+	color: #777;
+	font-size: small;
+}
+
+.country {
+	font-size: 16px !important;
+	font-weight: 400;
+}
+
